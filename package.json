@@ -1,0 +1,35 @@
+{
+  "name": "initial_coding_templates",
+  "version": "1.0.0",
+  "description": "초기 개발을 위한 template setting , NodeJS,Express,Babel,Nodemon,Morgan,Mongoose,Pug settings",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grsurgeon001/code-templates.git"
+  },
+  "keywords": [
+    "coding",
+    "templates"
+  ],
+  "author": "grsurgeon001",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grsurgeon001/code-templates/issues"
+  },
+  "homepage": "https://github.com/grsurgeon001/code-templates#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.4",
+    "nodemon": "^2.0.20"
+  }
+}
