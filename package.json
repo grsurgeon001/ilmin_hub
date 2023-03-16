@@ -1,7 +1,7 @@
 {
-  "name": "initial_coding_templates",
+  "name": "ILMIN_HUB",
   "version": "1.0.0",
-  "description": "초기 개발을 위한 template setting , NodeJS,Express,Babel,Nodemon,Morgan,Mongoose,Pug settings",
+  "description": "일민의료재단 웹 허브 개발 프로젝트 -- From Templates, NodeJS,Express,Babel,Nodemon,Morgan,Mongoose,Pug settings",
   "scripts": {
     "dev": "nodemon --exec babel-node src/init.js"
   },
